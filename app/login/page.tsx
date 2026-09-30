@@ -16,7 +16,7 @@ export default function LoginPage() {
     const { data, error } = await supabase
       .from('users')
       .select('*')
-      .eq('phone', phone)
+      .eq('username', phone)
       .eq('password', password)
       .limit(1);
 
