@@ -48,7 +48,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-slate-950 text-white flex items-center justify-center p-4">
       <form onSubmit={handleLogin} className="bg-slate-900 p-8 rounded-2xl border border-slate-800 w-full max-w-md space-y-4 shadow-xl">
-        <h1 className="text-2xl font-bold text-center text-amber-400">🎰 เข้าสู่ระบบ ลาวล็อตโต้</h1>
+        <h1 className="text-2xl font-bold text-center text-amber-400">🎰 Borndee</h1>
         <div>
           <label className="text-sm text-slate-400">ชื่อผู้ใช้งาน</label>
           <input

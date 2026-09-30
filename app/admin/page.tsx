@@ -222,7 +222,7 @@ export default function AdminDashboard() {
         {/* Header */}
         <div className="bg-slate-900 p-5 rounded-3xl border border-red-500/30 flex justify-between items-center shadow-2xl">
           <div>
-            <h1 className="text-xl font-bold text-red-400">🛡️ Master Admin Ultimate Suite (ระบบบริหารจัดการสูงสุดครบวงจร)</h1>
+            <h1 className="text-xl font-bold text-red-400">🛡️ Master Admin Ultimate Suite</h1>
             <p className="text-xs text-slate-400">ผู้ดูแลระบบ: {currentUser?.phone}</p>
           </div>
           <button onClick={() => { localStorage.clear(); router.push('/login'); }} className="px-4 py-2 bg-red-500/10 text-red-400 border border-red-500/20 rounded-2xl text-xs font-semibold">ออกจากระบบ</button>
