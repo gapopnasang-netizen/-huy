@@ -14,11 +14,11 @@ export default function LoginPage() {
     setLoading(true);
 
     const { data, error } = await supabase
-      .from('users')
-      .select('*')
-      .eq('username', phone)
-      .eq('password', password)
-      .limit(1);
+  .from('users')
+  .select('*')
+  .eq('username', phone)
+  .eq('password', password)
+  .limit(1);
 
     setLoading(false);
 
